@@ -23,9 +23,9 @@ spec:
             protocol: TCP
           env:
             - name: CONTAINER_COLOR
-              value: teal
+              value: blue
             - name: TITLE
-              value: Hello Rancher              
+              value: correios
             - name: PETS
               value: whitecows   
           readinessProbe:
