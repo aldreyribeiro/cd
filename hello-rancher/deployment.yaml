@@ -25,7 +25,7 @@ spec:
             - name: CONTAINER_COLOR
               value: blue
             - name: TITLE
-              value: correios
+              value: alr.int
             - name: PETS
               value: whitecows   
           readinessProbe:
