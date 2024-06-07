@@ -5,8 +5,7 @@ metadata:
   namespace: hello-rancher
 spec:
   rules:
-    - vKey: 3841967327
-      host: hellorancher.app.memora.com.br
+    - host: hellorancher.app.memora.com.br
       http:
         paths:
             backend:
