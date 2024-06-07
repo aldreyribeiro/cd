@@ -1,17 +1,16 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
-metadata:
-  name: ingress
+name: hellorancher
   namespace: hello-rancher
-spec:
+ spec:
   rules:
-  - host: hellorancher.app.memora.com.br
+    - host: hellorancher.app.memora.com.br
       http:
         paths:
-            backend:
+          - backend:
               service:
+                name: hello-rancher
                 port:
                   number: 80
-                name: hello-rancher
             path: /
             pathType: Prefix
