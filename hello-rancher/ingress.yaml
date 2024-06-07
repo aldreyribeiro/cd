@@ -5,7 +5,7 @@ metadata:
   namespace: hello-rancher
 spec:
   rules:
-    - host: hellorancher.app.memora.com.br
+  - host: hellorancher.app.memora.com.br
       http:
         paths:
             backend:
